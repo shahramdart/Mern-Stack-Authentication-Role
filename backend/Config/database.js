@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
 
-const db = new Sequelize("real_estate", "root", "", {
+const db = new Sequelize("MERN_AUTHENTICATION", "root", "", {
   host: "localhost",
   dialect: "mysql",
 });

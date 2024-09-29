@@ -17,10 +17,10 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
           <Route path="/users/add" element={<AddUser />} />
-          <Route path="/users/update/:id" element={<UpdateUser />} />
+          <Route path="/users/update" element={<UpdateUser />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/add" element={<AddProducts />} />
-          <Route path="/products/update/:id" element={<UpdateProducts />} />
+          <Route path="/products/update" element={<UpdateProducts />} />
         </Routes>
       </BrowserRouter>
     </div>
